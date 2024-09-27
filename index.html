@@ -1,92 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meliza Lazaroff</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <h1>Meliza Lazaroff</h1>
-    
-        <h2>¡ Un poquito de mi ! </h2>
+    <div class="container mt-5">
+      <h1 class="text-center">Meliza Lazaroff</h1>
+        
+        <h2 class="mt-4">¡ Un poquito de mí !</h2>
         <p id="presentacion"> 
-            Hola! Mi nombre es <strong>Meliza Lazaroff</strong>, tengo 30 años y soy de Montevideo Uruguay.
-            Mis padres de llaman Juan y Elizabeth, y tengo una hermana mayor que se llama Lucia.
-            Actualmente vivo con mi novio, Gaston y mi perrhijo Renato que tiene 11 años y medio.
-            Soy licenciada en nutrición, pero nunca ejercí, me recibi en pandemia y bueno.. la vida.
-            Trabajo en un seguro de salud privada hace 4 años y siempre estoy intentando
-            buscar nuevas oportunidades y cosas para hacer..por eso es que decidi comenzar a
-            estudiar programación ya que es algo que siempre tuve pendiente.
-            
+            Hola! Mi nombre es <strong>Meliza Lazaroff</strong>, tengo 30 años y soy de Montevideo, Uruguay.
+            Mis padres se llaman Juan y Elizabeth, y tengo una hermana mayor que se llama Lucía.
+            Actualmente vivo con mi novio, Gastón, y mi perrhijo, Renato, que tiene 11 años y medio.
+            Soy licenciada en nutrición, pero nunca ejercí, me recibí en pandemia y bueno... la vida.
+            Trabajo en un seguro de salud privado hace 4 años y siempre estoy intentando
+            buscar nuevas oportunidades y cosas para hacer. Por eso es que decidí comenzar a
+            estudiar programación, ya que es algo que siempre tuve pendiente.
         </p>
-        <table class="tablas">
-                <tr  class="descripciones">
-                  <th>Mis padres mi hermana mi novio y yo</th>
-                  
-                  <th>Mi novio, Rena y yo</th>
-    
-                  <th>Mi novio y Rena</th>
-
-                  <th>Rena y yo</th>
-
+        
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th>Mis padres, mi hermana, mi novio y yo</th>
+                    <th>Mi novio, Rena y yo</th>
+                    <th>Mi novio y Rena</th>
+                    <th>Rena y yo</th>
                 </tr>
-
-                <tr class="tablas">
-                  <td><img src="familia.jpg" alt="Mis padres mi hermana mi novio y yo" width="300" > </th>
-                  
-                  <td> <img src="los tres.jpg" alt="Rena Gasti y yo" width="400"></td>
-    
-                  <td><img src="Gasti y Rena.jpg" alt="Gasti y Rena" width="300"></td>
-
-                  <td><img src="Reni y yo.jpg" alt="Rena y yo" width="250"></td>
-
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="familia.jpg" alt="Mis padres, mi hermana, mi novio y yo" class="img-fluid" width="300"></td>
+                    <td><img src="los tres.jpg" alt="Rena, Gastón y yo" class="img-fluid" width="400"></td>
+                    <td><img src="Gasti y Rena.jpg" alt="Gastón y Rena" class="img-fluid" width="300"></td>
+                    <td><img src="Reni y yo.jpg" alt="Rena y yo" class="img-fluid" width="250"></td>
                 </tr>
-              </table>
+            </tbody>
+        </table>
 
-
-        <h2> ¡Mis hobbies! </h2>
-
+        <h2 class="mt-4">¡Mis hobbies!</h2>
         <p id="hobbies">
-            Soy una persona bastante tranquila, me gusta estar en mi casa escuchar música,
-            pasear con Renato, estar con mi novio, juntarme con mis amigas y descansar!
-            El año pasado comence clases de ceramica, lo cual tenia pendiente y es
+            Soy una persona bastante tranquila, me gusta estar en casa, escuchar música,
+            pasear con Renato, estar con mi novio, juntarme con mis amigas y descansar.
+            El año pasado comencé clases de cerámica, lo cual tenía pendiente y es
             algo que me ha hecho muy bien. Es una actividad que me ayuda a desconectar
             y disfruto mucho.
         </p>
 
-         <h2>Renato</h2> 
+        <h2 class="mt-4">Renato</h2> 
         <p id="renato">
-            Renato, mi gran amor se merecia un lugar aparte. Tiene 11 años y medio y me ha acompañado en muchos momentos importantes de mi vida. A Rena le gusta pasar tiempo con su hermana Obama y sus primos Mingo y Taco, ir a la playa con su padre (es guardavidas) e ir de vacaciones a Rocha.
+            Renato, mi gran amor, se merecía un lugar aparte. Tiene 11 años y medio y me ha acompañado en muchos momentos importantes de mi vida. A Rena le gusta pasar tiempo con su hermana Obama y sus primos Mingo y Taco, ir a la playa con su padre (es guardavidas) e ir de vacaciones a Rocha.
         </p>
 
-       
-            <table class="tablas">
-                <tr class="descripciones">
+        <table class="table table-responsive">
+            <thead>
+                <tr>
                     <th>Obi y Reni</th>
-                    
                     <th>En Rocha</th>
-      
-                    
-    
-                    <th>El</th>
-
+                    <th>Él</th>
                     <th>Con sus primos Mingo y Taco</th>
-                  </tr>
-                  <tr class="imagenes">
-                    <td><img src="Obi y Reni.jpg" alt="Rena y Obama" width="350"> </th>
-                    
-                    <td> <img src="Rena en Rocha.jpg" alt="Rena en Rocha" width="300"></td>
-             
-    
-                    <td><img src="Rena.jpg" alt="Rena" width="350"></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="Obi y Reni.jpg" alt="Rena y Obama" class="img-fluid" width="350"></td>
+                    <td><img src="Rena en Rocha.jpg" alt="Rena en Rocha" class="img-fluid" width="300"></td>
+                    <td><img src="Rena.jpg" alt="Rena" class="img-fluid" width="350"></td>
+                    <td><img src="Rena Minog y Taco playa.jpg" alt="Rena, Mingo y Taco en la playa" class="img-fluid" width="350"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-                    <td> <img src="Rena Minog y Taco playa.jpg" alt="Rena mingo y taco" width="350"></td>
-                  </tr>
-            </table>
-        
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-

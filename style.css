@@ -5,15 +5,15 @@
 h1 {
     background-color: bisque;
     font-family: cursive;
-    font-size: 200%;
+    font-size: 9vw;
     color: rgb(129, 129, 139);
     padding: 0.5%;
-    padding-left: 40%;
     border-radius: 15px;
 }
 
 h2 {
     background-color: bisque;
+    font-size: 8vw;
     text-align: center;
     text-decoration: underline;
     padding: 0.5%;
@@ -24,11 +24,13 @@ h2 {
 
 img {
     border-radius: 4%;
+    max-width:100%;height:auto;
 }
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 7vw;
 }
 
 p#presentacion {
